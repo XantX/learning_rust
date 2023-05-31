@@ -1,5 +1,5 @@
-use std::{io, cmp::Ordering, println};
 use rand::Rng;
+use std::{cmp::Ordering, io, println};
 
 fn main() {
     println!("Guess the number");
@@ -27,7 +27,7 @@ fn main() {
             Ordering::Equal => {
                 println!("You win!");
                 break;
-            },
+            }
         }
     }
 }
